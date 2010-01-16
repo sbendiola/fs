@@ -41,4 +41,9 @@ describe [|1; 2|]
 describe null
 describe [| 1; 5; 22|]
 
+//jagged arrays
+let jagged  = Array.zeroCreate 3
+jagged.[ 0] <- Array.init 1 (fun x -> x)
+jagged.[ 1] <- Array.init 2 (fun x -> x)
+jagged.[ 2] <- Array.init 3 (fun x -> x);;
 
