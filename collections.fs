@@ -34,3 +34,8 @@ else
 
 //this get throws exception on missing elements
 let boron = periodicTable.[symbol]
+
+//HashSet
+let movies = new HshSet<string>()
+movies.Add("No Country for Old Men")
+movies.Add("Crash")
